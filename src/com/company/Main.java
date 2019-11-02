@@ -9,9 +9,13 @@ public class Main {
         names[0] = "Erbol";
         names[1] = "Nurbek";
         names[2] = "Marina";
-        System.out.println(names[0] + "  " + names[1] + "  " + names[2]);
+        String[] namess = new String[4];
+        namess[0] = names[0];
+        namess[1] = names[1];
+        namess[2] = names[2];
+        namess[3] = "Daniyar";
 
-        String name = "Marina";
+        String name = "Daniyar";
 
         switch (name) {
             case "Erbol":
@@ -22,12 +26,12 @@ public class Main {
                 break;
             case "Marina":
                 System.out.println("Добрый вечер Марина");
+                case "Daniyar":
+                System.out.println("Добрый вечер Данияр");
                 break;
-            default:
-                System.out.println("Привет всем");
-
-
         }
+
+        System.out.println(namess[0] + "  " + namess[1] + "  " + namess[2] + " " + namess[3]);
 
 
     }
