@@ -15,20 +15,21 @@ public class Main {
         namess[2] = names[2];
         namess[3] = "Daniyar";
 
-        String name = "Daniyar";
-
-        switch (name) {
-            case "Erbol":
-                System.out.println("Доброе утро Эрбол");
-                break;
-            case "Nurbek":
-                System.out.println("Добрый день Нурбек");
-                break;
-            case "Marina":
-                System.out.println("Добрый вечер Марина");
+        for (String name : namess) {
+            switch (name) {
+                case "Erbol":
+                    System.out.println("Доброе утро Эрбол");
+                    break;
+                case "Nurbek":
+                    System.out.println("Добрый день Нурбек");
+                    break;
+                case "Marina":
+                    System.out.println("Добрый вечер Марина");
+                    break;
                 case "Daniyar":
-                System.out.println("Добрый вечер Данияр");
-                break;
+                    System.out.println("Добрый вечер Данияр");
+                    break;
+            }
         }
 
         System.out.println(namess[0] + "  " + namess[1] + "  " + namess[2] + " " + namess[3]);
